@@ -79,3 +79,40 @@ def chat_with_bot(history, prompt):
     history.append(HumanMessage(content=prompt))
     response = chat.invoke(history)
     return response
+
+
+def read_latex_template(file_path: str):
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            latex_content = file.read()
+        return latex_content
+    except FileNotFoundError:
+        raise FileNotFoundError(f"LaTeX template file not found at: {file_path}")
+    except Exception as e:
+        raise RuntimeError(f"Failed to read LaTeX file: {str(e)}")
+
+import openai
+
+def markdown_to_latex(markdown_resume: str, latex_template: str):
+    prompt = f"""
+You're an expert LaTeX resume writer.
+
+Your task is to convert the following resume written in Markdown into LaTeX, using the formatting and style of the LaTeX template provided.
+
+---
+Markdown Resume:
+{markdown_resume}
+---
+
+Use the style and structure from this sample LaTeX resume (only change the content, keep structure same , if some sections are not present in the markdown resume, then remove those sections from the latex resume):
+---
+{latex_template}
+---
+
+Only return the LaTeX code.
+"""
+
+    response = chat.invoke([HumanMessage(content=prompt)])
+    
+    latex_code = response.content
+    return latex_code
