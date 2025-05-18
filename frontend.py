@@ -8,7 +8,7 @@ import re
 
 # Set page config
 st.set_page_config(layout="wide")
-st.title("🧠 AI Resume Builder and Analyzer")
+st.title("Resume Builder and Analyzer")
 
 # Session state initialization
 if "chat_history" not in st.session_state:
