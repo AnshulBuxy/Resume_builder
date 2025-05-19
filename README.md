@@ -47,7 +47,7 @@ The website is organized into two main sections:
 
 | Sidebar Interface | Resume Analysis & Chat | Live Preview & Download |
 |-------------------|------------------------|--------------------------|
-| ![Sidebar](assets/sidebar.png) | ![Chatbot](assets/chatbot.png) | ![Preview](assets/preview.png) |
+| ![Sidebar](https://github.com/AnshulBuxy/Resume_builder/blob/main/assets/WhatsApp%20Image%202025-05-19%20at%2009.25.51_55ed31a6.jpg) | ![Chatbot](https://github.com/AnshulBuxy/Resume_builder/blob/main/assets/WhatsApp%20Image%202025-05-19%20at%2009.26.29_b7e768e3.jpg) | ![Preview](https://github.com/AnshulBuxy/Resume_builder/blob/main/assets/WhatsApp%20Image%202025-05-19%20at%2009.26.56_0a59ab48.jpg)|
 
 ---
 
