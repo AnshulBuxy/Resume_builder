@@ -85,11 +85,15 @@ The website is organized into two main sections:
 ---
 
 ## 📦 How to Clone & Run the Project Locally
-
+### create a .env file and Inside your .env file, add the following:
+```bash
+GOOGLE_API_KEY=your_google_api_key_here
+```
+---
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/your-username/resume-builder-ai.git
-cd resume-builder-ai
+git clone https://github.com/AnshulBuxy/Resume_builder
+cd Resume_builder
 
 # Step 2: Create a virtual environment
 python -m venv venv
@@ -98,5 +102,6 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 # Step 3: Install dependencies
 pip install -r requirements.txt
 
+
 # Step 4: Run the Streamlit app
-streamlit run main.py
+streamlit run frontend.py
