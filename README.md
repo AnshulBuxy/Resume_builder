@@ -6,10 +6,9 @@ This project was developed as an internship assignment for **Sama**. It’s a ne
 
 ---
 
-## 📽️ Video Preview & 📄 Resume Demo
+## 📽️ Video Preview 
 
-- 🎬 **Demo Video**: [Watch here](https://your-video-link.com)
-- 📄 **Sample Resume (PDF)**: [Download here](https://your-pdf-link.com)
+- 🎬 **Demo Video**: [Watch here](https://drive.google.com/drive/folders/13jaAZiafVsJBUDcr9OL-rvC6xJi5_pIb?usp=sharing)
 
 ---
 
